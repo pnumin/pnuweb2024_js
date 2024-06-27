@@ -16,4 +16,10 @@ section > div {
   font-size: large;
 }
 
+#msg {
+  font-size: xx-larger;
+  font-weight: bold;
+  color: blue;
+}
+
 
