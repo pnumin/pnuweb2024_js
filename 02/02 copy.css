@@ -1,0 +1,101 @@
+/* 전체 요소 모두 선택 */
+* {
+  margin: 0px;
+  padding: 0px; 
+}
+
+/* 태그 selector */
+header {
+  background-color: aliceblue;
+}
+
+h2 {
+  color: blue;
+}
+
+/* 클래스 selector */
+.c2 {
+  background-color:lavender;
+}
+
+/* 아이디 selector, 부모자식 관계 */
+#d1 > h2 {
+  color:green;
+}
+
+/* header > ul > li {
+  color:green;
+} */
+
+/* 자손관계 selector */
+header li {
+  color:green;
+  list-style: none;
+  margin: 5px;
+}
+img {
+  border-radius: 25%;
+}
+
+/* 속성 selector, 그룹화 */
+img[alt=html], img[alt=js]  {
+  width: 100px;
+  height: 100px;
+}
+/* 
+img[alt=js]  {
+  width: 100px;
+  height: 100px;
+} */
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-flex;
+  padding: 5px;
+}
+/* 가상클래스 selector */
+a:hover {
+  color:white;
+  background-color: coral;
+}
+
+/* 박스모델 */
+article {
+  border: 5px dashed red;
+  margin: 10px 20px 30px 40px;
+  padding: 20px 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 10px;
+  height: 200px;
+}
+
+div , ul {
+  border: 2px solid green;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+}
+
+/* 미디어쿼리 */
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: lightgreen;
+  }
+  
+  header {
+    background-color: chartreuse;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}

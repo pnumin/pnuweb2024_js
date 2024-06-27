@@ -1,0 +1,108 @@
+/* 전체 요소 모두 선택 */
+* {
+  margin: 0px;
+  padding: 0px; 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+#content {
+  background-color: aliceblue;
+  padding: 20px;
+}
+header {
+  margin: 20px;
+  padding: 10px;
+}
+header > div {
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+header li {
+  list-style: none;
+  display: inline-flex;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:royalblue;
+}
+
+header li:hover {
+  background-color: coral;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+ 
+article , section {
+  margin: 30px;
+}
+
+h1 {
+  font-size: x-large;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+article {
+  padding: 40px;
+}
+section {
+  background-color: white;
+  padding: 20px;
+}
+
+section > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+section p {
+  margin-left: 50px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+footer {
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px;
+   font-size: small;
+}
+
+
+/* 미디어쿼리 */
+@media screen and (min-width: 1280px) {
+  #content {
+    width: 80%;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
