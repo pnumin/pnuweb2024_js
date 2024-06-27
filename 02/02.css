@@ -14,22 +14,24 @@ body {
   background-color: aliceblue;
   padding: 20px;
 }
+
 header {
   margin: 20px;
   padding: 10px;
 }
-header > div {
-  font-size: xx-large;
-  font-weight: bold;
+
+header > div, header > ul {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+header > div {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
 header > ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 20px;
 }
 
