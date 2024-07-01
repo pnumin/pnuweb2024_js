@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>업다운게임</title>
+  <title>단위환산</title>
   <script src='./05.js'></script>
-  <link rel='stylesheet' type='text/css' href='../index.css'> 
+  <link rel='stylesheet' type='text/css' href='../index.css'>
+  <link rel='stylesheet' type='text/css' href='./05.css'>
 </head>
 
 <body>
@@ -17,15 +18,38 @@
     </header>
     <section>
       <div id='divTitle'>
-        자바스크립트 업다운게임
+        자바스크립트 단위환산
       </div>
-      <div id='divContent'>
-        <div>
 
-        </div>
-        <div id='msg'>
-        </div>
+      <div id='divContent'>
+        <form>
+          <div>
+            <div>
+              <select id='sel1'>
+                <option value='℃' selected>섭씨온도(℃)</option>
+                <option value='℉'>화씨온도(℉)</option>
+              </select>
+            </div>
+            <div>
+              <select id='sel2'>
+                <option value='℃'>섭씨온도(℃)</option>
+                <option value='℉' selected>화씨온도(℉)</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div>
+              <input type='number' id='txt1'>
+              <label for='txt1' id='lb1'>℃</label>
+            </div>
+            <div>
+              <input type='number' id='txt2' readonly>
+              <label for='txt2' id='lb2'>℉</label>
+            </div>
+          </div>
+        </form>
       </div>
+
     </section>
   </main>
 </body>
