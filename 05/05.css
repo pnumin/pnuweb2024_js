@@ -4,5 +4,40 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
+.d1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 90%;
+
+  margin-bottom: 10px;
+}
+
+.d2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+}
+
+select {
+  width: 90%;
+  height: 30px;
+}
+
+input {
+  width: 70%;
+  height: 30px;
+}
+
+#txt2 {
+  background-color: beige;
+}
+
+label {
+  font-size: x-large;
+  font-weight: bold;
+}
