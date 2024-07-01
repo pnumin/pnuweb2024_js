@@ -26,7 +26,60 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px; 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+section, #divTitle, #divContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 100%; 
+  flex-direction: column;
+}
+
+#divTitle, #divContent, #msg {
+  border: 1px dotted gray;
+  width : 90%;
+  
   padding: 20px;
+}
+
+#divTitle {
+  background-color: aliceblue;
+  border: 1px dotted gray;
+  font-size: x-large;
+  font-weight: bold;
+  height: 60px;
+  margin: 20px;
+}
+
+#divContent {
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#divContent > p {
+  margin-bottom: 10px;
+}
+
+#msg { 
+  height: 60px;
 }
 
 button {

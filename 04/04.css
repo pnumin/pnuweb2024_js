@@ -1,0 +1,18 @@
+#divContent > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#divContent div {
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: inline-flex;
+  margin: 5px;
+}
