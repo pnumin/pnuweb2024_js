@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
       //4. 숫자비교
       if (nCom === nUser) {
-        msg.innerHTML = '<h1>맞음</h1>';
+        msg.innerHTML = '<h1 id="msgRed">맞음</h1>';
       }
       else {
-        msg.innerHTML = '<h1>틀림</h1>'
+        msg.innerHTML = '<h1 id="msgBlue">틀림</h1>'
       }
     }) ;
   }

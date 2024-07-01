@@ -16,3 +16,11 @@ button {
   display: inline-flex;
   margin: 5px;
 }
+
+#msgRed {
+  color: red;
+}
+
+#msgBlue {
+  color: blue;
+}
