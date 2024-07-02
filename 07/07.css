@@ -1,0 +1,33 @@
+#divContent > form, #divContent div  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#divContent > form {
+  width: 100%;
+  flex-direction: column; 
+}
+
+#divContent div {
+  width: 80%; 
+  margin: 10px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+#txt2 {
+  background-color: beige;
+  color: blue;
+}
+
+button {
+  width: 30%;
+  display: inline-flex;
+  margin: 10px;
+}
