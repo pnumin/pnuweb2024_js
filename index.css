@@ -28,6 +28,36 @@ header {
   align-items: center;
   padding: 20px; 
 }
+article {
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+article ul {
+  width: 80%;
+  background-color: beige;
+  margin-top: 20px;
+  list-style: none;
+}
+article li {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  border: 1px dotted gray;
+  padding: 10px;
+}
+
+article a {
+  text-decoration: none;
+  color: black;
+}
+
+article li:hover {
+  background-color: goldenrod;
+  color: white;
+}
 
 a {
   text-decoration: none;
